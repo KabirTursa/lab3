@@ -25,9 +25,9 @@ public class ClassDesignIIDriver {
         //shapeDriver();
         //charListDriver();
         //lineSegmentDriver();
-        immutableFractionDriver();
+        //immutableFractionDriver();
         //math2Driver();
-        //passByReferenceDemo();
+        passByReferenceDemo();
     }
     
     
@@ -146,14 +146,14 @@ public class ClassDesignIIDriver {
 
     private static void math2Driver() {
         System.out.println("uncomment the code to use the math2Driver");
-        /*double a = Math2.PI;
+        double a = Math2.PI;
         double b = Math2.E;
         double c = a + b;
         
         System.out.println(" The larger of the two is " + Math2.max(10,20));
         System.out.println(" And the larger of the two is " + Math2.max(10.34,10.31));
         System.out.println("2^8 is " + Math2.pow(2,8) );
-        */        
+
     }
 
     
