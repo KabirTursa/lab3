@@ -25,9 +25,19 @@ public class ClassDesignIIDriver {
         //shapeDriver();
         //charListDriver();
         //lineSegmentDriver();
-        immutableFractionDriver();
+        //immutableFractionDriver();
         //math2Driver();
-        //passByReferenceDemo();
+        passByReferenceDemo();
+        /*Answers to questions for passByReferenceDemo()
+        a. Passing a primitive creates a copy, while passing an objet passes the reference
+        b. The scope of a primitive does not change
+        c. When an object is passed, the scope doesn't change since that specific variable and the one in the method
+        are technically 2 different variables. They both point to the same spot in memory, however, so any changes
+        made to the second one will affect the first one.
+        d. The scope of an object doesn't change, but since the pointer is passed, that object can be changed from that
+        spot in memory. If the variable in memory is then assigned to a new spot in memory (with the new keyword), the original
+        object cannot be changed anymore
+         */
     }
     
     
@@ -146,14 +156,14 @@ public class ClassDesignIIDriver {
 
     private static void math2Driver() {
         System.out.println("uncomment the code to use the math2Driver");
-        /*double a = Math2.PI;
+        double a = Math2.PI;
         double b = Math2.E;
         double c = a + b;
         
         System.out.println(" The larger of the two is " + Math2.max(10,20));
         System.out.println(" And the larger of the two is " + Math2.max(10.34,10.31));
         System.out.println("2^8 is " + Math2.pow(2,8) );
-        */        
+
     }
 
     
